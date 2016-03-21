@@ -26,6 +26,20 @@ a:hover {
   border-radius: 4px;
 }
 
+#about_us {
+	padding:50 0;
+    margin:0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+#about_us p {
+    font-family: 'Noto Sans Japanese', serif;
+    color: #5c97da;
+}
+
+
+
 #wrapper {
 	margin: 5% auto;
 	width: 100%;
