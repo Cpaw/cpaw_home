@@ -1,0 +1,48 @@
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	color: #2c88b9;
+}
+
+
+#about_title {
+	margin: 5% auto;
+}
+
+#member_show {
+	width: 100%;
+}
+
+.member_in {
+
+	width: 60%;
+
+	margin: 0 auto 10% auto;
+	clear: left;
+	clear: right;
+	padding: 0 0 200 0;
+}
+
+.member_image img {
+	width: 100%;
+}
+
+.member_image {
+    border-radius:100%;
+    overflow:hidden;
+	width: 30%;
+	float: left;
+}
+
+.member_exp {
+	color: #fcf8ff;
+	padding-left: 8px;
+	background-color: #5cb8e9;
+	box-shadow: 10px 10px 0px #3c98c9;
+	width: 66%;
+	margin: 0 auto;
+	float: right;
+}
+

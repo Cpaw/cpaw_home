@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	color: #2c88b9;
+}
+
+h2 {
+	padding: 5px;
+	background: #dcf8ff;
+	border-left: #3c78b9 5px solid;
+
+}
+
+a {
+  color: #2c88b9;
+  text-decoration: none;
+  position: relative;
+  padding: 4px;
+  transition: .1s;
+}
+a:hover {
+  background: #2c88b9;
+  color: #fff;
+  border-radius: 4px;
+}
+
+#wrapper {
+	margin: 5% auto;
+	width: 100%;
+}
+
+#about_ctf {
+	width: 60%;
+	margin: 5% auto;
+}
+
+#about_kyopro {
+	width: 60%;
+	margin: 5% auto;
+}
+
+#about_LT {
+	width: 60%;
+	margin: 5% auto;
+}
+
+#about_handson {
+	width: 60%;
+	margin: 5% auto;
+}
+
+.content {
+	width: 97%;
+	margin: 0 auto;
+}
