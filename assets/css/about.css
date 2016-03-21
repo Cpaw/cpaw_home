@@ -31,25 +31,11 @@ a:hover {
 	width: 100%;
 }
 
-#about_ctf {
+#about {
 	width: 60%;
 	margin: 5% auto;
 }
 
-#about_kyopro {
-	width: 60%;
-	margin: 5% auto;
-}
-
-#about_LT {
-	width: 60%;
-	margin: 5% auto;
-}
-
-#about_handson {
-	width: 60%;
-	margin: 5% auto;
-}
 
 .content {
 	width: 97%;
