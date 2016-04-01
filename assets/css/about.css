@@ -27,7 +27,7 @@ a:hover {
 }
 
 #about_us {
-	padding: 0;
+    padding: 0;
     margin:0 auto;
     text-align: center;
     width: 80%;
@@ -36,6 +36,7 @@ a:hover {
 #about_us p {
     font-family: 'Noto Sans Japanese', serif;
     color: #5c97da;
+    font-size:18px;
 }
 
 
