@@ -6,12 +6,89 @@ h1 {
 	color: #2c88b9;
 }
 
-
 #wrapper {
 	margin: 5% auto;
 	width: 100%;
 }
 
-#activity {
-	
+.clear {
+	clear: left;
+	clear: right;
 }
+
+
+
+#wrapper #active h2 {
+	background: url(../img/line_h2.png) repeat bottom left;
+	line-height: 40px;
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+
+#wrapper #active {
+	margin: 10px auto;
+	width: 60%;
+	text-align: center;
+
+}
+
+#wrapper #active p {
+	margin: 0 auto 5% auto;
+	background: url(../img/line.png) repeat bottom left;
+	font-size: 100%;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+#wrapper-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#wrapper-60 #mail {
+	width: 48%;
+	text-align: center;
+	float: left;
+	margin: 10px auto;	
+}
+
+#wrapper-60 #mail h2 {
+	background: url(../img/line_h2.png) repeat bottom left;
+	line-height: 40px;
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+
+#wrapper-60 #mail p {
+	margin: 0 auto 5% auto;
+	background: url(../img/line.png) repeat bottom left;
+	font-size: 100%;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+#wrapper-60 #twitter {
+	margin: 10px auto;
+	width: 48%;
+	text-align: center;
+	float: right;	
+}
+
+#wrapper-60 #twitter h2 {
+	background: url(../img/line_h2.png) repeat bottom left;
+	line-height: 40px;
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+
+#wrapper-60 #twitter p {
+	margin: 0 auto 5% auto;
+	background: url(../img/line.png) repeat bottom left;
+	font-size: 100%;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
