@@ -64,6 +64,10 @@ p {
 	width: 25%;
 }
 
+.top_exp p {
+    font-family: 'Noto Sans Japanese', serif;
+}
+
 .top_exp img{
 	width: 100%;
 }
@@ -78,6 +82,7 @@ p {
 }
 
 .bottom_exp p {
+    font-family: 'Noto Sans Japanese', serif;
 	font-size: 20px;
 }
 
