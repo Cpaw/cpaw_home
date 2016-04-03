@@ -23,6 +23,10 @@ h1 {
 	padding: 0 0 200 0;
 }
 
+.clear {
+	clear: both;
+}
+
 .member_image img {
 	width: 100%;
 }
@@ -32,6 +36,7 @@ h1 {
     overflow:hidden;
 	width: 30%;
 	float: left;
+	clear:left;
 }
 
 .member_exp {
@@ -43,4 +48,3 @@ h1 {
 	margin: 0 auto;
 	float: right;
 }
-

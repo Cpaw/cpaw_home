@@ -41,7 +41,7 @@ p {
     border-radius:100%;
     width: 20%;
     overflow:hidden;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 #top_active {
@@ -54,7 +54,7 @@ p {
 #bottom_active {
     background-color: #fdc92f;
     height: 30%;
-    clear: left;
+    clear: both;
 }
 
 .top_exp {
@@ -81,7 +81,7 @@ p {
 }
 
 .bottom_exp p {
-    font-family: 'Noto Sans Japanese', serif;
+    	font-family: 'Noto Sans Japanese', serif;
 	font-size: 20px;
 }
 
