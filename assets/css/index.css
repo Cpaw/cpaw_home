@@ -38,7 +38,6 @@ p {
 #our_active p {
     font-size: 40px;
     font-weight: 900;
-    border-radius:100%;
     width: 20%;
     overflow:hidden;
     margin: 0 auto;
