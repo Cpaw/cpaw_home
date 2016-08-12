@@ -3,12 +3,18 @@
 		<meta charset="UTF-8">
 		<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:900,400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/common.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/member.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/material.css" type="text/css">
 		<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/height.js"></script>
+		<script src="assets/js/minigrid.min.js"></script>
+		<script src="assets/js/member.js"></script>
+		<script src="assets/js/jquery.csv.js"></script>
+		<!-- <script src="assets/js/load.js"></script> -->
 		<title>Cpaw</title>
 	</head>
 	<body>
@@ -26,148 +32,288 @@
 			</ul>
 		</nav>
 		<div id="about_title">
-			<h1>
-				Main Member
-			</h1>
+			<h1>Main Member</h1>
 		</div>
 
-		<div id="member_show">
-			<!--palloc-->
-			<div class="member_in">
-				<div class="member_image">
-					<img src="assets/img/palloc.jpeg">
-				</div>
-				<div class="member_exp">
-					<h2>
-						ぱろっく
-					</h2>
-					<h3>
-						代表
-					</h3>
-					<p>
-						法政大学理工学部応用情報工学科３年。普段はCTFやスコアサーバーの開発、機械学習などを行っている。<br>
-						CTFチームcpaw,vuls,baryliteなどに所属している。ICTSCトラブルシューティングコンテスト運営。<br>
-					</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<!--chihiro-->
-			<div class="member_in">
-				<div class="member_image">
-					<img src="assets/img/chihiro.png">
-				</div>
-				<div class="member_exp">
-					<h2>
-						ちひろ
-					</h2>
-					<h3>
-						CTFer
-					</h3>
-					<p>
-						法政大学理工学部応用情報工学科３年。普段からCTFに参加している。好きなジャンルはReversingやPwnだが、Cryptoもかなり勉強していたなどもあり、様々なジャンルに精通している。<br>
-						最近はLinuxカーネルのコードリーディングなどもしている。
-					</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<!--choll-->
-			<div class="member_in">
 
-				<div class="member_image">
-					<img src="assets/img/choll.png">
-				</div>
-				<div class="member_exp">
-					<h2>
-						ちょる
-					</h2>
-					<h3>
-						数学史研究者
-					</h3>
-					<p>
-						工学院大学情報学部コンピュータ科学科４年。コンピュータ科学史・計算科学史・博物館学・科学技術史を日々学んでいる。また、学部２年で数学教育に関する査読付き論文を出している。<br>
-						大学に週８２時間滞在しているほど大学が大好き。大学院に進学予定。
-					</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<!--hujihiro-->
-			<div class="member_in">
-				<div class="member_image">
-					<img src="assets/img/fujihiro.png">
-				</div>
+<div id="member_show">
+<div class="cards">
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/palloc.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">palloc</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF</p><p>MachineLearning</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	"法政大学理工学部応用情報工学科３年。CTFやスコアサーバーの開発、機械学習などを行っている。CTFチームcpaw、vulsに所属。ICTSC5	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/6運営。""><img src="assets/img/member/twitter.png"></a>	<a class="card_facebook" href="https://facebook.com/porisuteru"><img src="assets/img/member/facebook.png"></a>	</div>
+	</div>
+	</div>
+</div>
 
-				<div class="member_exp">
-					<h2>
-						ふじひろ
-					</h2>
-					<h3>
-						Webアプリ開発者
-					</h3>
-					<p>
-						工学院大学情報学部コンピュータ科学科４年。electronなどでデスクトップアプリを作成したり、Javascriptが得意でWebページの作成などをしている。<br>
-						趣味は自作PCとマイクラで、現在は就職活動中。
-					</p>
-				</div>
-				<div class="clear"></div>
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/chihiro.png);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">chihiro</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF</p><p>Reversing</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	法政大学理工学部応用情報工学科３年。CTFに参加していて、好きなジャンルはReversingやPwn。様々なジャンルに精通している。Caramell言語の作成を行っている。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/encry1024"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/takt.jpeg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">takt</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>Unity</p><p>CreativeCoding</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報科学部情報デザイン学科３年。UnityやUE4などを用いてゲーム制作を主にしている。最近は画像処理やプロジェクションマッピングを行っている。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/kotatu0909"><img src="assets/img/member/twitter.png"></a>	<a class="card_facebook" href="https://facebook.com/takuto.km
+"><img src="assets/img/member/facebook.png"></a>	</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/sakasita.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">阪下</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>VR</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部情報デザイン学科３年。Virtual Reality技術を用いたアプリを製作している。<br>工学院大学Ⅰ部新聞会に所属していて、ラジオMCや報道パーソナリティをつとめている。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/sakashita110133"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/ryou.jpeg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">Ry0u</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>ProgramingContest</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部コンピュータ科学科３年。普段は競技プログラミングに熱中している。<br>CODE FESTIVAL2014、CODEFESTIVAL2015本戦に出場。競技プログラミングサークル「Kogcoder」代表。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/ry0u_yd"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/choll.png);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">前山</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>ProgramingContest</p><p>Mathematics</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部コンピュータ科学科４年。コンピュータ科学史・計算科学史・博物館学・科学技術史を日々学んでいる。また、学部２年で数学教育に関する査読付き論文を出している。<br>大学に週８２時間滞在しているほど大学が大好き。大学院に進学予定。	</div>
+	<div class="mdl-card__links">
 			</div>
-			<!--takt-->
-			<div class="member_in">
-				<div class="member_image">
-					<img src="assets/img/takt.jpeg">
-				</div>
-				<div class="member_exp">
-					<h2>
-						タクト
-					</h2>
-					<h3>
-						デザイナー/CG＆ゲームクリエイター
-					</h3>
-					<p>
-						工学院大学情報科学部情報デザイン学科３年。UnityやUE4などを用いてゲーム制作を主にしている。<br>最近は画像処理やプロジェクションマッピングを行っている。
-						工学院大学Ⅰ部新聞会所属。
-					</p>
-				</div>
-				<div class="clear"></div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/fujihiro.png);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">ふじひろ</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>ProgramingContest</p><p>Mathematics</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部コンピュータ科学科４年。electronなどでデスクトップアプリを作成したり、Javascriptが得意でWebページの作成などをしている。<br>趣味は自作PCとマイクラで、現在は就職活動中。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/fujihiro_sn"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/nomuken.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">Nomuken</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>Web</p><p>Security</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	東京電機大学4年。LepusCTF運営で、Web系の技術が得意。セキュリティの研究を行っており、Webセキュリティに特に精通している。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/nomuken"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/iwasi.png);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">黒イワシ</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>Web</p><p>Designer</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	東京電機大学大学院修士1年。専攻はCGで、CTFではForensicやSteganoなどを得意としている。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/Schwarz_Sardine "><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/ryuno.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">りゅうの</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF</p><p>Reversing</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学4年。CTFチームcpaw、vulsに所属しており、Reversingが得意。Caramell言語作成などを行っている。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/metasploitable"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/chasen.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">ちゃせん</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>Electronics</p><p>NLP</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	法政大学理工学部応用情報工学科3年。自然言語処理を学んでいて、電子工作も趣味で行っている。海外生活が長く、英語が得意。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/chasen_ooze "><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/uplus.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">いとう</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF</p><p>Reversing</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部1年。RubyとShellScriptを主に使っていて、Vimmer。CTFをやっている。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/uplus_e10"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/yuta.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">yuta</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部１年。セキュリティやCTFに興味あり。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/hyouga12"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/ikuta.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">生田</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>Web</p><p>LowTechnique</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	法政大学 理工学部 1年。CTF や競プロなど面白そうなことに興味あり。JavaScript (Node.js) が得意。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/iku_tter "><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">長森</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>Drone</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	工学院大学情報学部コンピュータ科学科2年。セキュリティに興味あり。ドローンなどを触っている。	</div>
+	<div class="mdl-card__links">
 			</div>
-			<!--ryou-->
-			<div class="member_in">
-				<div class="member_image">
-					<img src="assets/img/ryou.jpeg">
-				</div>
-				<div class="member_exp">
-					<h2>
-						Ryou
-					</h2>
-					<h3>
-						競技プログラマー
-					</h3>
-					<p>
-						工学院大学情報学部コンピュータ科学科３年。普段は競技プログラミングに熱中している。<br>
-						CODE FESTIVAL2014,CODEFESTIVAL2015本戦に出場。競技プログラミングサークル「Kogcoder」代表。<p>
-					</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<!--sakasita-->
-			<div class="member_in">
-				<div class="member_image">
-					<img src="assets/img/sakasita.jpg">
-				</div>
-				<div class="member_exp">
-					<h2>
-						坂下
-					</h2>
-					<h3>
-						上級VR技術者
-					</h3>
-					<p>
-						工学院大学情報学部情報デザイン学科３年。Virtual Reality技術を用いたアプリを製作している。<br>
-						工学院大学Ⅰ部新聞会に所属していて、ラジオMCや報道パーソナリティをつとめている。
-					</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/n4nu.jpg);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">n4nu</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF Adviser</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	電気通信大学2年。CTF for ビギナーズの運営をしていて、scryptos、TokyoWestansというCTFチームに所属しており、世界で活躍している。CpawCTFのアドバイザー。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/_N4NU_ "><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="demo-card-image mdl-card mdl-shadow--2dp" style="background-image:url(assets/img/member/hoyotaka.png);">	<div class="mdl-card--expand"></div>
+	<div class="mdl-card__actions">
+	<span class="demo-card-image__filename">ほよたか</span>
+	</div>
+	<div class="mdl-card__skills">
+		<p>CTF Adviser</p>	</div>
+	<div class="mdl-hide">
+	<div class="mdl-card__explain">
+	NTTコミュニケーション。元CTF for ビギナーズの運営で、セキュリティコンテストチャレンジブックの著者の一人。CpawCTFのアドバイザー。	</div>
+	<div class="mdl-card__links">
+	<a class="card_twitter" target="_blank" href="https://twitter.com/takahoyo"><img src="assets/img/member/twitter.png"></a>		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 		<footer>
 			©Cpaw
 		</footer>
