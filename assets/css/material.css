@@ -417,7 +417,6 @@ hr {
 audio,
 canvas,
 iframe,
-img,
 svg,
 video {
   vertical-align: middle; }
@@ -556,10 +555,7 @@ textarea {
   thead {
     display: table-header-group; }
   tr,
-  img {
-    page-break-inside: avoid; }
-  img {
-    max-width: 100% !important; }
+
   p,
   h2,
   h3 {
@@ -814,7 +810,7 @@ html, body {
   font-weight: 400;
   line-height: 20px; }
 
-h1, h2, h3, h4, h5, h6, p {
+ h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0; }
 
@@ -830,14 +826,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   opacity: 0.54;
   font-size: 0.6em; }
 
-h1 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.02em;
-  margin-top: 24px;
-  margin-bottom: 24px; }
 
 h2 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -889,9 +877,6 @@ p {
   letter-spacing: 0;
   margin-bottom: 16px; }
 
-a {
-  color: rgb(255,64,129);
-  font-weight: 500; }
 
 blockquote {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -922,11 +907,6 @@ address {
   letter-spacing: 0;
   font-style: normal; }
 
-ul, ol {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0; }
 
 /**
  * Class Name Styles
