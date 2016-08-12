@@ -24,8 +24,7 @@
 })();
 
 $(window).load(function () {
-  $(".card").mouseenter(function(){
-  	console.log("in");
+  $(".demo-card-image").mouseenter(function(){
 	$(this).find('.mdl-hide').show();
 	}).mouseleave(function(){
 	$(this).find('.mdl-hide').hide();
