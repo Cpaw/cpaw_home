@@ -56,3 +56,9 @@ a:hover {
   width: 97%;
   margin: 0 auto;
 }
+
+.content img {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
