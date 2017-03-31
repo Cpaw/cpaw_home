@@ -41,7 +41,7 @@
   margin: 0 auto;
 }
 #cssmenu > ul > li {
-  width: 150px;
+  width: 120px;
   text-align: center;
   float: left;
   -webkit-perspective: 1000px;
